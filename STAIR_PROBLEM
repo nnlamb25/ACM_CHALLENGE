@@ -28,15 +28,15 @@ unsigned int countWays(int n);
 
 int main()
 {
-    int n;
-    unsigned int ans;
     double time;
     clock_t startTime;
+    unsigned int ans;
+    int n;
     
     cout << "Enter number of stairs: ";
     cin >> n;
     
-    startTime = clock();
+    startTime = clock();    // Your algorithm will be timed!
     ans = countWays(n);
     time = (clock() - startTime) / CLOCKS_PER_SEC;
     
