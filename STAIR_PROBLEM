@@ -11,7 +11,7 @@ using namespace std;
  * case with any number of steps. Since you are a programmer, you decide to
  * code up an algorithm to figure this out for you.
  *
- * Example:
+ * Examples:
  *  There are 7 possible ways to climb up a 4 step stair case
  *  (1, 1, 1, 1), (2, 1, 1), (1, 2, 1), (1, 1, 2), (2, 2), (3, 1), (1, 3)
  *
