@@ -21,7 +21,7 @@ using namespace std;
  *
  *
  *  Conditions:
- *      0 <= n <= 40
+ *      0 <= n <= 40  (Anything larger will take too long to calculate)
  *************************************************************************************/
 unsigned int countWays(int n);
 
