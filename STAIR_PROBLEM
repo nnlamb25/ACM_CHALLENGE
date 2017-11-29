@@ -21,6 +21,7 @@ using namespace std;
  *
  *
  *  Conditions:
+ *      n = number of steps in stair case
  *      0 <= n <= 40  (Anything larger will take too long to calculate)
  *************************************************************************************/
 unsigned int countWays(int n);
