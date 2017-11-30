@@ -40,7 +40,8 @@ int main()
     ans = countWays(n);
     time = (clock() - startTime) / CLOCKS_PER_SEC;
     
-    cout << "\nThere are " << ans << " ways to climb " << n << " stairs\nIt took " << time << " seconds to calculate this.\n";
+    cout << "\nThere are " << ans << " ways to climb " << n << " stairs\n"
+         << "It took " << time << " seconds to calculate this.\n";
     
     return 0;
 }
